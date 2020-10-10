@@ -10,6 +10,7 @@ p{
 h1{
     font-family: 'Raleway', sans-serif;
        font-weight: 700;
+
 }
 h2{
      font-family: 'Raleway', sans-serif; 
@@ -76,11 +77,17 @@ background-color: hsl(219, 30%, 18%);
         color: hsl(228, 45%, 44%);
     }
 
-    /* sizing */
-.container{
-margin: 0;
+    /* spacing */
+
+    .margin-landing{
+        margin: 0 20%;
     }
 
+
+}
+.spacing-features{
+    max-width: 35%;
+}
     /* button */
 
     .btn{
@@ -96,4 +103,54 @@ padding: 15px 80px;
     }
     .btn:hover{
 background: #f4f4f4;
+    }
+
+    .btn-link{
+color: hsl(176, 68%, 64%);
+    }
+    .btn-link:hover{
+ color: hsl(0, 0%, 100%);
+    }
+
+    /* nav */
+    .nav{
+     display: inline-flex;
+    }
+    
+
+    /* img */
+    .img-intro{
+        width: 90%;
+    }
+    .img-profile{
+border-radius: 99px;
+width: 90%;
+    }
+.img-fit{
+        width: 100%;
+    }
+
+    /* sections */
+    .suscribe-section{
+        top: 50px
+    }
+    .footer-section{
+        padding-top: 80px;
+    }
+    .spacing-section{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .padding-box{
+padding-top: 5%;
+padding-bottom: 5%;
+    }
+
+    /* input */
+    .input-style{
+        border-radius: 999px;
+        color: hsl(0, 0%, 100%);
+        padding: 15px 100%;
+        font-family: 'Raleway',sans-serif;
+        font-size: 14px;
     }
